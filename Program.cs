@@ -4,7 +4,8 @@ Console.WriteLine("Escolha qual algoritmo você quer executar:");
 Console.WriteLine("1. Binary Search (Busca Binária)");
 Console.WriteLine("2. Selection Sort (Ordenação por Seleção)");
 Console.WriteLine("3. Recursion (Funções que se chamam sozinhas!)");
-Console.WriteLine("4. Sair");
+Console.WriteLine("4. Quicksort (Ordenação rápida)");
+Console.WriteLine("5. Sair");
 Console.Write("\nDigite sua escolha (1-3): ");
 
 var option = Console.ReadLine();
@@ -21,6 +22,9 @@ switch (option)
         Recursion.Execute();
         return;
     case "4":
+        Quicksort.Execute();
+        return;
+    case "5":
         Console.WriteLine("Até logo!");
         return;
     default:
