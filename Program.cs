@@ -5,7 +5,8 @@ Console.WriteLine("1. Binary Search (Busca Binária)");
 Console.WriteLine("2. Selection Sort (Ordenação por Seleção)");
 Console.WriteLine("3. Recursion (Funções que se chamam sozinhas!)");
 Console.WriteLine("4. Quicksort (Ordenação rápida)");
-Console.WriteLine("5. Sair");
+Console.WriteLine("5. HashTables (Dictionary)");
+Console.WriteLine("6. Sair");
 Console.Write("\nDigite sua escolha (1-3): ");
 
 var option = Console.ReadLine();
@@ -20,11 +21,14 @@ switch (option)
         break;
     case "3":
         Recursion.Execute();
-        return;
+        break;
     case "4":
         Quicksort.Execute();
-        return;
+        break;
     case "5":
+        HashTables.Execute();
+        break;
+    case "6":
         Console.WriteLine("Até logo!");
         return;
     default:
