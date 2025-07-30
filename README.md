@@ -7,7 +7,7 @@ A ideia é estudar, praticar e aprofundar conhecimentos em algoritmos e estrutur
 ## Sumário
 
 - [Busca Binária (Binary Search)](./BinarySearch.cs)
-- [Tabelas de Espalhamento (Hash Tables)](./HashTables.cs)
+- [Tabelas Hash (Hash Tables)](./HashTables.cs)
 - [Recursão](./Recursion.cs)
 - [Ordenação por Seleção (Selection Sort)](./SelectionSort.cs)
 - [Quicksort](./Quicksort.cs)
