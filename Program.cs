@@ -6,7 +6,8 @@ Console.WriteLine("3. Recursion (Funções que se chamam sozinhas!)");
 Console.WriteLine("4. Quicksort (Ordenação rápida)");
 Console.WriteLine("5. HashTables (Dictionary)");
 Console.WriteLine("6. BreadthFirstSearch (Busca em largura)");
-Console.WriteLine("7. Sair");
+Console.WriteLine("7. Dijkstras Algorithm (Algoritmo de Dijkstra)");
+Console.WriteLine("8. Sair");
 Console.Write("\nDigite sua escolha (1-7): ");
 
 var option = Console.ReadLine();
@@ -19,7 +20,8 @@ var actions = new Dictionary<string, Action>
     { "4", Quicksort.Execute },
     { "5", HashTables.Execute },
     { "6", BreadthFirstSearch.Execute },
-    { "7", () => Console.WriteLine("Até logo!") }
+    { "7", DijkstrasAlgorithm.Execute },
+    { "8", () => Console.WriteLine("Até logo!") }
 };
 
 if (actions.TryGetValue(option, out var action))
