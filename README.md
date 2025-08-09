@@ -33,7 +33,7 @@ O objetivo deste repositório é servir como material de apoio para quem está e
 
 ## Sobre o livro
 
-[Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos](https://novatec.com.br/livros/entendendo-algoritmos/) é um livro introdutório sobre algoritmos, com explicações visuais e exemplos práticos, ideal para quem está começando ou quer revisar conceitos fundamentais.
+[Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos](https://amzn.to/3UUvIR4) é um livro introdutório sobre algoritmos, com explicações visuais e exemplos práticos, ideal para quem está começando ou quer revisar conceitos fundamentais.
 
 ---
 
