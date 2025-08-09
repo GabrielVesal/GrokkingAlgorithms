@@ -8,8 +8,9 @@ Console.WriteLine("5. HashTables (Dictionary)");
 Console.WriteLine("6. BreadthFirstSearch (Busca em largura)");
 Console.WriteLine("7. Dijkstras Algorithm (Algoritmo de Dijkstra)");
 Console.WriteLine("8. Greedy Algorithms (Algoritmos Gulosos)");
+Console.WriteLine("9. Dynamic Programming (Programação dinâmica)");
 Console.WriteLine("0. Sair");
-Console.Write("\nDigite sua escolha (0-8): ");
+Console.Write("\nDigite sua escolha (0-9): ");
 
 var option = Console.ReadLine();
 
@@ -23,6 +24,7 @@ var actions = new Dictionary<string, Action>
     { "6", BreadthFirstSearch.Execute },
     { "7", DijkstrasAlgorithm.Execute },
     { "8", GreedyAlgorithms.Execute },
+    { "9", DynamicProgramming.Execute },
     { "0", () => Console.WriteLine("Até logo!") }
 };
 
