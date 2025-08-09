@@ -7,8 +7,9 @@ Console.WriteLine("4. Quicksort (Ordenação rápida)");
 Console.WriteLine("5. HashTables (Dictionary)");
 Console.WriteLine("6. BreadthFirstSearch (Busca em largura)");
 Console.WriteLine("7. Dijkstras Algorithm (Algoritmo de Dijkstra)");
-Console.WriteLine("8. Sair");
-Console.Write("\nDigite sua escolha (1-7): ");
+Console.WriteLine("8. Greedy Algorithms (Algoritmos Gulosos)");
+Console.WriteLine("0. Sair");
+Console.Write("\nDigite sua escolha (0-8): ");
 
 var option = Console.ReadLine();
 
@@ -21,7 +22,8 @@ var actions = new Dictionary<string, Action>
     { "5", HashTables.Execute },
     { "6", BreadthFirstSearch.Execute },
     { "7", DijkstrasAlgorithm.Execute },
-    { "8", () => Console.WriteLine("Até logo!") }
+    { "8", GreedyAlgorithms.Execute },
+    { "0", () => Console.WriteLine("Até logo!") }
 };
 
 if (actions.TryGetValue(option, out var action))
