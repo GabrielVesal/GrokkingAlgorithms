@@ -37,4 +37,14 @@ O objetivo deste repositório é servir como material de apoio para quem está e
 
 ---
 
+## Recomendações de Estudo
+
+Para aprofundar ainda mais seus conhecimentos em algoritmos e estruturas de dados, recomendo o curso:
+
+**[Estruturas de Dados e Algoritmos - Augusto Galego](https://pay.hub.la/8YA8nCnlY7NPG0kkztjw?ref=5Oobap2mGCS1H4Z0KzHd)**
+
+Um curso prático e completo que complementa perfeitamente os conceitos apresentados neste repositório, ideal para quem quer se preparar para entrevistas técnicas e aprofundar conhecimentos em programação.
+
+---
+
 Sinta-se à vontade para contribuir, sugerir melhorias ou compartilhar suas próprias implementações!
