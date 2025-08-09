@@ -7,10 +7,14 @@ A ideia é estudar, praticar e aprofundar conhecimentos em algoritmos e estrutur
 ## Sumário
 
 - [Busca Binária (Binary Search)](./BinarySearch.cs)
-- [Tabelas Hash (Hash Tables)](./HashTables.cs)
-- [Recursão](./Recursion.cs)
 - [Ordenação por Seleção (Selection Sort)](./SelectionSort.cs)
+- [Recursão](./Recursion.cs)
 - [Quicksort](./Quicksort.cs)
+- [Tabelas Hash (Hash Tables)](./HashTables.cs)
+- [Busca em Largura (Breadth-First Search)](./BreadthFirstSearch.cs)
+- [Algoritmo de Dijkstra](./DijkstrasAlgorithm.cs)
+- [Algoritmos Gulosos (Greedy Algorithms)](./GreedyAlgorithms.cs)
+- [Programação Dinâmica (Dynamic Programming)](./DynamicProgramming.cs)
 - [Programa Principal (Exemplos de Uso)](./Program.cs)
 
 ## Objetivo
